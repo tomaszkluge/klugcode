@@ -7,11 +7,6 @@ const Navbar = () => {
     const [click, setClick] = useState(false)
     const handleClick = () => setClick(!click)
 
-
-
-
-
-
     return (
         <div className='header'>
             <Link to='./'>
