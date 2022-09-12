@@ -6,10 +6,13 @@
   padding: 0;
 }
 
-h1, p, a {
+h1, h4, p, a {
   color: #fff;
 }
 
+span {
+  color: lightskyblue;
+}
 body {
   margin: 0;
   font-family: 'Outfit', 'Segoe UI', 'Roboto', 'Oxygen',
@@ -18,7 +21,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background: #000;
+  background: rgba(0,0,0);
 }
 
 ul {
