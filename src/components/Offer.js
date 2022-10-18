@@ -9,32 +9,32 @@ const Offer = () => {
             <div className='card'>
                 <h3>- WEBSITES -</h3>
                 <span className='bar'></span>
-                <p className='btc'>1 BTC</p>
-                <p>- 3 days -</p>
-                <p> - Views -</p>
-                <p>- Featured -</p>
-                <p>- Private Quarters -</p>
-                <Link to='/contact' className='btn'>Book</Link>
+                <p className='btc'>from 1500 PLN</p>
+                <p>- Private -</p>
+                <p> - Business -</p>
+                <p>- Shops -</p>
+                <p>- Web Apps -</p>
+                <Link to='/contact' className='btn'>choose</Link>
             </div>
             <div className='card'>
-                <h3>- WEBSITES -</h3>
+                <h3>- SEO -</h3>
                 <span className='bar'></span>
-                <p className='btc'>1 BTC</p>
-                <p>- 3 days -</p>
-                <p> - Views -</p>
-                <p>- Featured -</p>
-                <p>- Private Quarters -</p>
-                <Link to='/contact' className='btn'>Book</Link>
+                <p className='btc'>from 1000 PLN /mth</p>
+                <p>- Min. 6 mth. contract -</p>
+                <p> - Audit inc. -</p>
+                <p>- Strategy inc. -</p>
+                <p>- Optimization inc. -</p>
+                <Link to='/contact' className='btn'>choose</Link>
             </div>
             <div className='card'>
-                <h3>- WEBSITES -</h3>
+                <h3>- IT OUTSOURCING -</h3>
                 <span className='bar'></span>
-                <p className='btc'>1 BTC</p>
-                <p>- 3 days -</p>
-                <p> - Views -</p>
-                <p>- Featured -</p>
-                <p>- Private Quarters -</p>
-                <Link to='/contact' className='btn'>Book</Link>
+                <p className='btc'>from 2000 PLN /mth</p>
+                <p>-  -</p>
+                <p> -  -</p>
+                <p>-  -</p>
+                <p>-  -</p>
+                <Link to='/contact' className='btn'>choose</Link>
             </div>
         </div>
 

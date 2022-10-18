@@ -10,7 +10,7 @@ const Portfolio = () => {
         <div className='left'>
             <h1>Portfolio</h1>
             <p>The websites I have made and the companies I work with.</p>
-            <Link to='/contact'><button className='btn'>Contact</button></Link>
+            <Link to='/contact'><button className='btn'>cooperation</button></Link>
         </div>
         <div className='right'>
             <div className='img-container'>
