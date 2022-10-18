@@ -15,13 +15,13 @@ const Portfolio = () => {
         <div className='right'>
             <div className='img-container'>
                 <div className='image-stack top'>
-                    <img src={Aquacar} className='img' alt='www.aquacarwash.pl' />
+                    <a href='https://aquacarwash.pl' target='_blank' rel="noopener noreferrer"><img src={Aquacar} className='img' alt='Aqua car wash' /></a>
                 </div>
                 <div className='image-stack middle'>
-                    <img src={Bsr} className='img' alt='www.servicesbsr.com' />
+                <a href='https://servicesbsr.com' target='_blank' rel="noopener noreferrer"><img src={Bsr} className='img' alt='Services BSR' /></a>
                 </div>
                 <div className='image-stack bottom'>
-                    <img src={Gwxtac} className='img' alt='www.gwxtac.com' />
+                <a href='https://gwxtac.com' target='_blank' rel="noopener noreferrer"><img src={Gwxtac} className='img' alt='Gunworks Tactic' /></a>
                 </div>
             </div>
         </div>

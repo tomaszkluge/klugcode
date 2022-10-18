@@ -8,7 +8,7 @@ const Offer = () => {
   return (
     <div>
         <Navbar />
-        <HeroImage heading='OFFER.' />
+        <HeroImage heading='OFFER_' />
         <OfferCards />
         <Footer />
     </div>

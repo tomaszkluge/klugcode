@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './VideoStyles.css'
-
 import cypherWorld from '../assets/cypherWorld.mp4'
 
 const Video = () => {
@@ -12,11 +11,11 @@ const Video = () => {
             </video>
             <div className='content'>
                 <h1>Web Development. IT Outsourcing. </h1>
-                <p>Elevate your business to the next level.</p>
+                <p>Elevate your business to the next level_</p>
 
                 <div>
                     <Link to='/offer' className='btn'>Offer</Link>
-                    <Link to='/Contact' className='btn'>Contact</Link>
+                    <Link to='/contact' className='btn'>Send msg</Link>
                 </div>
             </div>
         </div>
