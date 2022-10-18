@@ -1,0 +1,46 @@
+.portfolio {
+    width: 100%;
+    margin: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+}
+
+.portfolio .left {
+    text-align: center;
+    margin: auto;
+    padding: 1rem 4rem;
+    max-width: 600px;
+}
+
+.portfolio .left p {
+    margin: 1.2rem 0;
+}
+
+.portfolio .right {
+    width: 100%;
+}
+
+.right .img-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.right .img {
+    max-width: 80%;
+    border: 1px solid #333;
+}
+
+.right .top, .middle, .bottom {
+    margin-top: 10%;
+ }
+
+ @media screen and (max-width: 1140px) {
+    .portfolio {
+        grid-template-columns: 1fr;
+    }
+ }
+
