@@ -25,10 +25,11 @@
 .hero .content h1 {
     font-size: 3rem;
     color: #fff;
+    
 }
 
-.hero p {
-    font-size: 1.8rem;
+.hero .content p {
+    font-size: 1.5rem;
     font-weight: 200;
     text-transform: uppercase;
     margin-bottom: 1.6rem;
@@ -41,11 +42,11 @@
 
 @media screen and (max-width: 640px) {
     .content h1 {
-        font-size: 3rem;
+        font-size: 1.7rem;
     }
 
     .content p {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         margin-bottom: 1.6rem;
     }
 }

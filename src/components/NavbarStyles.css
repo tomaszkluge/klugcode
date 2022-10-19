@@ -22,6 +22,20 @@
     padding: 0 1rem;
 }
 
+.nav-menu li::after {
+	content: '';
+	width: 0%;
+	height: 3px;
+	background: rgba(135,206,250);
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+
+.nav-menu li:hover::after {
+	width: 100%;
+}
+
 .nav-menu a {
     font-size: 1.2rem;
     font-weight: 500;
