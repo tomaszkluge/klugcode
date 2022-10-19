@@ -30,10 +30,10 @@ const Offer = () => {
                 <h3>- IT OUTSOURCING -</h3>
                 <span className='bar'></span>
                 <p className='btc'>from 2000 PLN /mth</p>
-                <p>-  -</p>
-                <p> -  -</p>
-                <p>-  -</p>
-                <p>-  -</p>
+                <p>- Data recovery -</p>
+                <p> - Updates -</p>
+                <p>- Fixing bugs -</p>
+                <p>- Configurations HW & SW -</p>
                 <Link to='/contact' className='btn'>choose</Link>
             </div>
         </div>
