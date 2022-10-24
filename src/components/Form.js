@@ -1,7 +1,6 @@
 import React from 'react'
 import './FormStyles.css'
 import mail from './mail.php'
-import msg from './msg.php'
 
 const Form = () => {
   return (

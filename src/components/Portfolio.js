@@ -1,32 +1,36 @@
 import React from 'react'
 import './PortfolioStyles.css'
-import { Link } from 'react-router-dom'
-import Gwxtac from '../assets/gwxtac.png'
+
+import {Link} from 'react-router-dom'
+
+import acw from '../assets/aquacar.png'
+import bsr from '../assets/bsr.png'
+import gwxtac from '../assets/gwxtac.png'
+import hermes from '../assets/hermes.png'
+
 const Portfolio = () => {
     return (
         <div className='portfolio'>
-            <div className='up'>
+            <div className='left'>
+                <h1>Portfolio</h1>
                 <p>The websites I have made and the companies I work with.</p>
-                <p>Explore on the site.</p>
+                <Link to='/contact'><button className='btn'>Contact</button></Link>
             </div>
-            <div className='down'>
+            <div className='right'>
                 <div className='img-container'>
                     <div className='image-stack top'>
-                        <a href='https://aquacarwash.pl' target='_blank' rel="noopener noreferrer"><h2>Aqua Car Wash</h2></a>
-                        <iframe src='https://aquacarwash.pl' className='img' title='Aqua Car Wash' />
-                    </div>
-                    <div className='image-stack middle'>
-                        <a href='https://servicesbsr.com' target='_blank' rel="noopener noreferrer"><h2>Best Ship Repair</h2></a>
-                        <iframe src='https://servicesbsr.com' className='img' title='Aqua Car Wash' />
+                       <a href='https://aquacarwash.pl' target='_blank' rel="noopener noreferrer"><img src={acw} className='img' alt='' /></a>
                     </div>
                     <div className='image-stack bottom'>
-                        <a href='https://gwxtac.com' target='_blank' rel="noopener noreferrer"><h2>Gunworx Tactical</h2>
-                        <img src={Gwxtac} id='gwx' className='img' alt='Gunworx Tactical' /></a>
+                    <a href='https://servicesbsr.com' target='_blank' rel="noopener noreferrer"><img src={bsr} className='img' alt='' /></a>
+                    </div>
+                    <div className='image-stack top-middle'>
+                    <a href='https://gwxtac.com' target='_blank' rel="noopener noreferrer"><img src={gwxtac} className='img' alt='' /></a>
+                    </div>
+                    <div className='image-stack bottom-middle'>
+                    <a href='http://hermes-dekoracje.pl' target='_blank' rel="noopener noreferrer"><img src={hermes} className='img' alt='' /></a>
                     </div>
                 </div>
-            </div>
-            <div className='up'>
-                <Link to='/contact'><button className='btn'>cooperation</button></Link>
             </div>
         </div>
     )
