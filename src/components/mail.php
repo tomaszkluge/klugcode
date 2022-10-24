@@ -1,21 +1,25 @@
-<?php
+<?php 
 
-if (isset($_POST['email']) && $_POST['email'] != '' && $_POST['name'] != '' && $_POST['comment'] != '') {
+    if(isset($_POST['btn']))
+    {
+       $UserName = $_POST['name'];
+       $Email = $_POST['email'];
+       $Subject = $_POST['Subject'];
+       $Msg = $_POST['comment'];
 
-    if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-        $admin_email = "info@klugcode.dev";
-        $email = $_REQUEST['email'];
-        $name = $_REQUEST['name'];
-        $comment = $_REQUEST['comment'];
+       if(empty($UserName) || empty($Email) || empty($Subject) || empty($Msg))
+       {
+           echo 'Message not sent, please try again.';
+       }
+       else
+       {
+           $to = "info@klugcode.dev";
 
-        mail($admin_email, "$name", $comment, "From:" . $email);
-
-        echo '<script language="javascript">';
-        echo 'alert("Message sent")';
-        echo '</script>';
-    } else {
-        echo '<script language="javascript">';
-        echo 'alert("The message has not been sent. Try again.")';
-        echo '</script>';
+           if(mail($to,$Subject,$Msg,$Email))
+           {
+               echo 'Message sent.';
+           }
+       }
     }
-}
+    
+?>
