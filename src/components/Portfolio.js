@@ -13,8 +13,7 @@ const Portfolio = () => {
         <div className='portfolio'>
             <div className='left'>
                 <h1>Portfolio</h1>
-                <p>The websites I have made and the companies I work with.</p>
-                <Link to='/contact'><button className='btn'>Contact</button></Link>
+                <p>The websites I have made and the companies I work with.</p>  
             </div>
             <div className='right'>
                 <div className='img-container'>
@@ -31,6 +30,10 @@ const Portfolio = () => {
                     <a href='http://hermes-dekoracje.pl' target='_blank' rel="noopener noreferrer"><img src={hermes} className='img' alt='' /></a>
                     </div>
                 </div>
+            </div>
+            <div className='left'>
+            <p>If you want to cooperate, write to me.</p>
+            <Link to='/contact'><button className='btn'>Cooperation</button></Link>
             </div>
         </div>
     )

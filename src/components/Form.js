@@ -1,20 +1,20 @@
 import React from 'react'
 import './FormStyles.css'
-import mail from './mail.php'
+
 
 const Form = () => {
   return (
       <div className='form'>
-        <form action={mail} method='post'>
+        <form action="https://formsubmit.co/info@klugcode.dev" method='post'>
           <label>Your Name</label>
-          <input name='name' type='text'></input>
+          <input name='name' type='text' required></input>
           <label>Email</label>
-          <input name='email' type='email'></input>
+          <input name='email' type='email' required></input>
           <label>Subject</label>
-          <input type="text" name="Subject"></input>
+          <input type="text" name="subject" required></input>
           <label>Details</label>
-          <textarea name='comment' rows='6' placeholder='Type a message_' />
-          <button className='btn'>Send</button>
+          <textarea name='comment' rows='6' placeholder='Type a message_' required />
+          <button className='btn' type='submit'>Send</button>
         </form>
       </div>
   )

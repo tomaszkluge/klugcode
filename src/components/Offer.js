@@ -21,9 +21,9 @@ const Offer = () => {
                 <span className='bar'></span>
                 <p className='btc'>from 1000 PLN /mth</p>
                 <p>- Min. 6 mth. contract -</p>
-                <p> - Audit inc. -</p>
-                <p>- Strategy inc. -</p>
-                <p>- Optimization inc. -</p>
+                <p> - Audit incl. -</p>
+                <p>- Strategy incl. -</p>
+                <p>- Optimization incl. -</p>
                 <Link to='/contact' className='btn'>choose</Link>
             </div>
             <div className='card'>
